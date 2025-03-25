@@ -1,0 +1,7 @@
+<?php  ?> Super tag PHP.
+
+<?     ?> Shot open tag.
+
+<%     %> ASP tag // não funcionam mais.
+
+<?php echo "CursoemVídeo" ?> .
