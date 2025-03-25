@@ -1,0 +1,19 @@
+    Variáveis
+$nome = "João";
+$idade = 25;
+$altura = 1.75;
+$ativo = true;
+
+    define()
+define("TAXA_DE_JUROS", 0.05);
+echo "A taxa de juros é " . TAXA_DE_JUROS;
+
+    Constante
+const PI = 3.14159;
+echo "O valor de PI é " . PI;
+
+    Diferença entre define() e const
+Característica	                                         define()	             |const
+Pode ser usada dentro de classes?	                       ❌ Não	             |✅ Sim
+Pode ser definida dentro de estruturas de controle?	     ✅ Sim	               |❌ Não
+Tipo de valor suportado	                                 Qualquer tipo escalar |Apenas tipos escalares
