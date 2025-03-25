@@ -1,0 +1,17 @@
+    Categorias dos tipo primitivos
+
+    escalares
+ $sobrenome = "Silva"; // String.
+ $idade = 34; // Int.
+ $peso = 85.9; // Double - Float - Real(deixou de existir na versão 7.4).
+ $casado = true; // Bollean.
+ 
+    compostos
+  Array.
+  object.
+
+    especiais
+  null.
+  resource.
+  callabe.
+  mixed.
