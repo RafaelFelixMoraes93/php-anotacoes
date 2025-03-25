@@ -1,0 +1,38 @@
+    Tipos de String (double quoted - single quoted) - (Heredoc - Noewdoc)
+
+double quoted = " " aspas duplas (tudo em aspas vira String).
+em double, tudo é interpretado, ou seja:
+"PHP \u{1F418}".
+irá sair: PHP (e o desenho do elefante).
+
+$nome = "Rafael";
+echo "$nome"
+Rafael
+
+singlequoted = ' ' aspas normais.
+em single, não é interpretado, tudo é ao pé da letra, ou seja nada é interpretado, ou seja, 'PHP \u{1F418}'
+irá sair: PHP \u{1F418}
+
+$nome = "Rafael";
+echo '$nome';
+$nome
+
+conca
+tenation operator = (.)
+"Curso " . "PHP"
+
+"$nome \"Minotauro\" $sobrenome"
+
+\n nova linha.
+\t tabulação.
+\\ barra invertida.
+\$ sinal de cifrão.
+\u{} codepoint unicode.
+
+$nome = "Rafael";
+	$sobrenome = "Felix";
+	$apelido = "Grilo";
+	echo "$nome " . $apelido . " $sobrenome \n";
+	echo "$nome\t\"$apelido\"\t$sobrenome \n";
+	echo "\\ \n";
+	echo "\$";
