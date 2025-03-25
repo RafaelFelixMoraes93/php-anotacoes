@@ -1,0 +1,33 @@
+    Ordem de precedência
+
+0) ()     Parênteses modifica a ordem de precedência.
+1) **     Expoêntes.
+2) * / %  Multiplicação, divisão e môdulo.
+3) + -    Adição e subtração.
+
+    Outras operações aritméticas
+    
+abs() = valor absoluto $valor = abs(-2000); saída é (2000).
+
+base_convert() = $valor = base_convert(254, 10, 16); saída é (0xfe).
+
+ceil() = arredonda para cima.
+
+floor() = arredonda para baixo.
+
+round() = arredondamento aritmético.
+
+hypot() = calcular hypotenusa.
+
+intdiv() = 5/2 da 2.
+$valor = intdiv(5, 0); saída é (2).
+
+min() = minimo. $valor = min(5, 2); saída é (2).
+
+max() = máximo. $valor = max(5, 2); saída é (5).
+
+pi() = $valor pi(); ou M_PI;
+
+sin(), cos(), tan();
+
+sqrt() = raiz quadrada.
