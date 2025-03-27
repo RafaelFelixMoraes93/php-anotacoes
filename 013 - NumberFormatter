@@ -1,0 +1,16 @@
+    Criar um padrão de formatação de moedas.
+
+$real = 1000;
+$cotacao = 5.75;
+$dolar = $real / $cotacao;
+echo "Seus R\$ " . $real . " equivalem a US\$" . $dolar;
+
+    Alteração
+$padrao = numfmt_create("pt_BR"), NumberFormatter::CURRENCY);
+echo "Seus " . numfmt_format_currency($padrao, $, "BRL"). " equivalem a " . numfmt_format_currency($padrao, $dolar, "USD");
+
+
+    Habilitar INLT (Internalização)
+
+C:\xampp\php
+Procurar arquivo: (php.ini) e alterar ;(extension=intl) para (extension=intl) foi removido (;).
