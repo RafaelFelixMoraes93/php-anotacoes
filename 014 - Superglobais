@@ -1,0 +1,6 @@
+$_COOK = pequenas variaveis guardadas dentro do navegador.
+$_FILES = se fizer upload de arquivos, pega as informações.
+$_SESSION = permite variaveis de sessão que não são perdidas em as navegações de páginas, podem ser utilizadas.
+$_ENV = variaveis de ambiente do servidor
+$_SERVER = Mostra as informações do servidor.
+$GLOBALS = mostra as informações de todas as superglobais (porém fica confuso e consome mais recursos).
