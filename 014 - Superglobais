@@ -1,6 +1,29 @@
-$_COOK = pequenas variaveis guardadas dentro do navegador.
-$_FILES = se fizer upload de arquivos, pega as informações.
-$_SESSION = permite variaveis de sessão que não são perdidas em as navegações de páginas, podem ser utilizadas.
-$_ENV = variaveis de ambiente do servidor
-$_SERVER = Mostra as informações do servidor.
-$GLOBALS = mostra as informações de todas as superglobais (porém fica confuso e consome mais recursos).
+  Superglobais são variáveis internas que sempre estão disponíveis em qualquer escodo do scrip.
+  Elas são usadas para manipulas dados de entrada do usuário, sessões, cookiers, variáveis de servidor e ambiante.
+
+    $_GET
+Armazena dados enviados via método GET (URL).
+
+    $_POST
+Armazena dados enviados via método POST (formulários)
+
+    $_REQUEST (Evitar)
+Contém dados de $_GET / $_POST / $_COOKIES
+
+    $_SESSION
+Armazena variáveis de sessão para manter dados entre requisições
+
+    $_COOKIE
+Contém valores armazenados nos cookies do navegador.
+
+    $_FILES (Usar com validação)
+Usado para manipular uploads de arquivos.
+
+    $_SERVER (Usar com cuidado)
+Contém informações do servidor e do ambiente.
+
+    $_ENV (Evitar para dados sensíveis)
+Armazena variáveis de ambiente (usadas em servidores e configurações do sistema).
+
+    $GLOBALS (envitar usar, não é uma boa pratica)
+Acessa variáveis globais dentro de funções.
