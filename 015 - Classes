@@ -1,0 +1,11 @@
+    Classe Abstrata
+Não pode ser instanciada, só pode servir como progenitora.
+
+    Método Abstrato
+Declarado, mas não implementado na progenitora.
+
+    Classe Final
+Não pode ser herdade por outra classe, obrigatóriamente folha.
+
+  Método Final
+Não pode ser sobrescrito pelas suas sub-classes, obrigatoriamente herdado.
